@@ -17,12 +17,12 @@ For object available in pascal-voc we can make use of this pretrained model, if 
 Most of the idea is taken from this [blog](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/) series
 
 ## Requirements
-1.tesnorflow
-2.scipy
-3.PIL
-4.opencv
-5.numpy
-6.skimage
+1. tesnorflow
+2. scipy
+3. PIL
+4.o pencv
+5. numpy
+6. skimage
 
 ## About
 If you used the code for your research, please, cite the paper:
