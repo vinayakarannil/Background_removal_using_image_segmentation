@@ -35,5 +35,5 @@ If you used the code for your research, please, cite the paper:
     }
 
 
-## refernces
+## references
 1. https://github.com/warmspringwinds/tf-image-segmentation
