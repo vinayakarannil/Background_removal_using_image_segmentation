@@ -129,18 +129,8 @@ def segment_img(image_filename, sess):
     img.putdata(newData)
     img.save("person.png", "png")  
 
-    merged.save("background.png", "png")
+    bg_.save("background.png", "png")
 
-def worker(input_q, output_q):
-   
-    fps = FPS().start()
-    while True:
-        fps.update()
-        frame = input_q.get()
-        output_q.put(segment_img(frame, sess))
-
-    fps.stop()
-    sess.close()
 
 
 if __name__ == '__main__':
