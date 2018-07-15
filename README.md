@@ -1,4 +1,4 @@
-# Background_removal_Using_image_segmentation
+# Background substitution Using deep learning image segmentation
 This project demonstrates how we can make use of image segmentation using a fully convolution network for efficient back ground substitution
 
 ## Sample
